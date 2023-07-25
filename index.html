@@ -2,49 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <!-- viewport scaling size acc to screen -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>drone</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="f">
+  <div class="t">
     <div class="a">
-    <h1>DRONE</h1>
-    <p>
-        AI drone to find and detect defect in the plants and trees
-    </p>
-</div>
-<div>
-    <img src="drone.png" alt="img" style="width: 100px; height: 50px;">  
-</div>
-    <style>
-        .f{
-            display: flex;
-            flex-direction: row;
-        }
-      .a{
-        width: 540px;
-        margin: 90px;
-        position: relative;
-        background-color: rgb(10, 67, 223);
-        border-radius: 20px;
-        padding: 10px;
-        text-align: center;
-        border: 10px solid rgb(197, 44, 10);
-        
-      }
-      img{
-        width:100px;
-        height: 100px;
-        border-radius: 100%;
-        position: absolute;
-        top: 180px;
-        left: 120px;
-      }
-      p{
-        
-        margin-left: 110px;
+        <div class="s">
+           <img  src="drone.png" alt=""  width="100px" height="100px">
+        </div>
+        <div class="c" style=" position: relative;">
+            <h1>drone</h1>
+            <p>AI drone to detect defect in plants</p>
+        </div>
 
-    }
-    </style>
+    </div>
+    <div class="a" style="background-color: aquamarine;">
+        <div class="s">
+           <img  src="drone.png" alt=""  width="100px" height="100px">
+        </div>
+        <div class="c" style=" position: relative;">
+            <h1>drone 2.o</h1>
+            <p> advanced model for plants and animals defect didection</p>
+        </div>
+
+    </div>
+    <div class="a" style="background-color: rgb(28, 14, 186)">
+        <div class="s">
+           <img  src="drone.png" alt=""  width="100px" height="100px">
+        </div>
+        <div class="c" style=" position: relative;">
+            <h1>Advantages</h1>
+            <p>using in form</p>
+        </div>
+
+    </div>
+    
+   
+  
+</div>
+  
 </body>
+<style>
+    .t{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap
+    }
+    .a{
+
+        width:500px;
+        height:150px;
+        margin: 50px;
+        border-radius: 20px;
+        text-align: center;
+       border: 3px solid ;
+       display: flex;
+        background-color: rgb(211, 47, 18);
+    }
+   img{
+        border-radius: 100%;
+     
+        position:relative;
+        top:30px;
+      left: 20px;
+      border:3px solid;
+
+   
+    }
+    .c{left:20px;
+        
+       top:20px;
+    }
+</style>
 </html>
